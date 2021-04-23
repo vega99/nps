@@ -165,9 +165,9 @@ class Api extends REST_Controller{
           $response = array(
             "status"=> 404,
             "status_text" => "error",
-            "api"=> "/artists/api/artists",
+            "api"=> "/nps/api/nps",
             "method" => "DELETE",
-            "message" => "Identificador de Artista no localizado, la clave de Artista no fue enviada",
+            "message" => "Identificador de Número de parte no localizado, la clave de Número de parte no fue enviada",
             "errors"=> $this->form_validation->error_array(),
             "data" => null
           );
